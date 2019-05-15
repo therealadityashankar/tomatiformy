@@ -1,0 +1,11 @@
+{
+  "name": "tomatiformy",
+  "version": "1.0.0",
+  "description": "create jsons from forms if the form is verified",
+  "main": "tomatiformy.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Aditya Shankar",
+  "license": "MIT"
+}
