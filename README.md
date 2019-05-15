@@ -2,6 +2,9 @@
 
 simple way to create jsons from forms if the form is verified
 
+## install
+`npm install --save therealadityashankar/tomatiformy`
+
 
 ## functions
 
