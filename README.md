@@ -7,9 +7,11 @@ simple way to create jsons from forms if the form is verified
 ---
 
 ### tomato(form, [lists])
-an html form
+    - form
+        an html form
 
-- lists [optional]
-parameters from the html form that are lists
-
-returns: a js object
+    - lists [optional]
+        parameters from the html form that are lists
+    
+    returns
+        a js object
