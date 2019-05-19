@@ -52,7 +52,14 @@ var tomatoformy = {
     formy: function(jsObj){
         var formData = new FormData();
         for(var key in jsObj){
-            formData.append(key, jsObj[key]);
+            var value = jsObj[key];
+
+            // if Array put each item with the same key
+            if(Array.isArray(value))
+                for(var item of value) formData.append(key, item);
+                // item of value, what am i, Indiana Jones
+
+            else formData.append(key, value);
         }
 
         return formData;
