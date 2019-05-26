@@ -10,7 +10,7 @@ if (typeof window == 'undefined')
  *
  * all functions of tomatoformy
  */
-var tomatoformy = {
+var tomatiformy = {
     /**
      * @function tomato
      *
