@@ -22,6 +22,7 @@ var tomatoformy = {
      * @returns {object|undefined} returns undefined 
      */
     tomato: function(form, lists){
+        lists = lists||[];
         if(form.checkValidity()){
             var body = {};
             var formData = new FormData(form);
@@ -66,4 +67,4 @@ var tomatoformy = {
     }
 }
 
-if(module) module.exports = tomatoformy;
+if(typeof(window) == 'undefined') module.exports = tomatoformy;
